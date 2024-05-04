@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Nunito-Sans;
+  src: url(./fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
 }
