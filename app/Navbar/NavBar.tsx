@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
                 <button className={styles.toggleButton} onClick={toggleDarkMode}>
                     {darkMode ? (
                         <>
-                            <FontAwesomeIcon icon={faSun} /> Dark Mode
+                            <FontAwesomeIcon icon={faSun} /> Light Mode
                         </>
                     ) : (
                         <>
