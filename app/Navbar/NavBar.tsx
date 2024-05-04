@@ -1,5 +1,4 @@
 'use client';
-// Navbar.tsx
 import React from 'react';
 import styles from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,7 +15,7 @@ const Navbar: React.FC = () => {
                 <button className={styles.toggleButton} onClick={toggleDarkMode}>
                     {darkMode ? (
                         <>
-                            <FontAwesomeIcon icon={faSun} /> Light Mode
+                            <FontAwesomeIcon icon={faSun} /> Dark Mode
                         </>
                     ) : (
                         <>
