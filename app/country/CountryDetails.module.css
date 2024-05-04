@@ -1,0 +1,181 @@
+.body {
+    font-size: 16px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(207, 26%, 17%);
+    min-height: 100vh;
+}
+
+.darkContainer {
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+}
+
+.countryDetails {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.countryInfo {
+    display: flex;
+}
+
+.flagContainer {
+    width: 500px;
+    margin-right: 4em;
+}
+
+.textInfo {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.countryName {
+    margin-bottom: 1.5em;
+}
+
+.mainInfo {
+    margin-right: 4em;
+}
+
+.detailsInfoContainer {
+    display: flex;
+}
+
+.flag {
+    width: 100%;
+}
+
+.detail {
+    margin-bottom: 5px;
+}
+
+.detailPair {
+    display: flex;
+}
+
+.detailLabel {
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+.detailValue {
+    font-weight: 300;
+}
+
+.borderCountriesContainer {
+    margin: 2em 0;
+}
+
+.borderCountryButton {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(207, 26%, 17%);
+    width: 5em;
+    height: 2em;
+    margin-right: 1.2em;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.darkborderCountryButton {
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-color: hsl(207, 26%, 17%);
+}
+
+.borderCountriesLabel {
+    align-self: center;
+    margin-right: 15px;
+}
+
+.backButton {
+    margin-bottom: 4em;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(207, 26%, 17%);
+    width: 8em;
+    height: 2em;
+    margin-right: 1.2em;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.darkBackButton {
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-color: hsl(207, 26%, 17%);
+}
+
+.backButtonText {
+    margin-left: 1em;
+}
+
+.borderLink, .backLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 755px) {
+    .countryDetails {
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .textInfo {
+        margin: 0;
+        width: 100%;
+    }
+
+    .countryName {
+        margin-top: 1em;
+    }
+
+    .countryInfo {
+        flex-direction: column;
+    }
+
+    .flagContainer {
+        width: 100%;
+    }
+
+    .detailsInfoContainer {
+        flex-direction: column;
+    }
+
+    .mainInfo {
+        margin-bottom: 2em;
+    }
+
+    .backButton {
+        margin-bottom: 2em;
+    }
+
+    .borderCountryButton {
+        width: 8em;
+        height: 2.5em;
+        margin-right: 0.5em;
+    }
+
+    .borderCountriesLabel {
+        margin-right: 0.5em;
+    }
+
+    .borderCountriesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .borderCountriesLabel {
+        align-self: flex-start;
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,55 @@
+.body {
+    font-size: 14px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.darkContainer {
+    background-color: hsl(207, 26%, 17%);
+}
+
+.content {
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    margin: 0 auto;
+    color: hsl(207, 26%, 17%);
+}
+
+.darkContent {
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+}
+
+.searchFilterContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.countryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.notFound {
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 755px) {
+    .searchFilterContainer {
+        flex-direction: column;
+    }
+
+    .countryGrid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notFound {
+        margin: 0 auto;
+    }
+}
